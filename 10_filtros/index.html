@@ -1,0 +1,18 @@
+<!-- almacenamiento de local storage angular -->
+<!DOCTYPE html>
+<html ng-app="myModule">
+<head>
+	<meta charset="utf-8">
+	<title>filtros angular</title> 
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+	<script type="text/javascript" src="controller.js"></script>
+</head>
+<body ng-controller="filtrerController">
+	<p> {{ mi_html | removeHTML }}</p>
+	<p> {{ mi_json  | json }} </p>
+	<p> {{ costo  | currency }} </p>
+	<p> {{ costo  | currency:'€' }} </p>
+	
+
+</body>
+</html>	
